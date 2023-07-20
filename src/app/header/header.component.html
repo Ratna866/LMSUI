@@ -1,0 +1,28 @@
+<mat-toolbar color="'primary">
+    <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+    </button>
+    <h3>Library Management System</h3>
+
+    <div class="user-info">
+        <span>
+            Hi,
+            Ratn
+        </span>
+        <button mat-icon-button [matMenuTriggerFor]="userMenu">
+            <mat-icon>account_circle</mat-icon>
+        </button>
+    </div>
+    <!-- <mat-menu #userMenu="matMenu">
+        <button mat-menu-item routerLink="">
+            <mat-icon>login</mat-icon>
+            <span>Login</span>
+        </button>
+        <button mat-menu-item routerLink="/user/profile">
+            <mat-icon>account_box</mat-icon>
+            <span>Profile</span>
+        </button>
+        <mat-icon>logout</mat-icon>
+        <span>Log Out</span>
+    </mat-menu> -->
+</mat-toolbar>
